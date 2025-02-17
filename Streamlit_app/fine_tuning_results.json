@@ -1,0 +1,147 @@
+[
+    {
+        "ratio": "10",
+        "f1_micro": 0.5731958762886598,
+        "recall_micro": 0.5582329317269076,
+        "precision_micro": 0.5889830508474576,
+        "confusion_matrix": [
+            {
+                "class": "STACH",
+                "TN": 274,
+                "FP": 58,
+                "FN": 73,
+                "TP": 93
+            },
+            {
+                "class": "SR",
+                "TN": 235,
+                "FP": 97,
+                "FN": 56,
+                "TP": 110
+            },
+            {
+                "class": "AFIB",
+                "TN": 293,
+                "FP": 39,
+                "FN": 91,
+                "TP": 75
+            }
+        ]
+    },
+    {
+        "ratio": "15",
+        "f1_micro": 0.7142857142857143,
+        "recall_micro": 0.7028112449799196,
+        "precision_micro": 0.7261410788381742,
+        "confusion_matrix": [
+            {
+                "class": "STACH",
+                "TN": 290,
+                "FP": 42,
+                "FN": 43,
+                "TP": 123
+            },
+            {
+                "class": "SR",
+                "TN": 274,
+                "FP": 58,
+                "FN": 45,
+                "TP": 121
+            },
+            {
+                "class": "AFIB",
+                "TN": 300,
+                "FP": 32,
+                "FN": 60,
+                "TP": 106
+            }
+        ]
+    },
+    {
+        "ratio": "25",
+        "f1_micro": 0.7908366533864541,
+        "recall_micro": 0.7971887550200804,
+        "precision_micro": 0.7845849802371542,
+        "confusion_matrix": [
+            {
+                "class": "STACH",
+                "TN": 300,
+                "FP": 32,
+                "FN": 36,
+                "TP": 130
+            },
+            {
+                "class": "SR",
+                "TN": 295,
+                "FP": 37,
+                "FN": 26,
+                "TP": 140
+            },
+            {
+                "class": "AFIB",
+                "TN": 292,
+                "FP": 40,
+                "FN": 39,
+                "TP": 127
+            }
+        ]
+    },
+    {
+        "ratio": "75",
+        "f1_micro": 0.9323915237134208,
+        "recall_micro": 0.927710843373494,
+        "precision_micro": 0.9371196754563894,
+        "confusion_matrix": [
+            {
+                "class": "STACH",
+                "TN": 325,
+                "FP": 7,
+                "FN": 14,
+                "TP": 152
+            },
+            {
+                "class": "SR",
+                "TN": 325,
+                "FP": 7,
+                "FN": 9,
+                "TP": 157
+            },
+            {
+                "class": "AFIB",
+                "TN": 315,
+                "FP": 17,
+                "FN": 13,
+                "TP": 153
+            }
+        ]
+    },
+    {
+        "ratio": "50",
+        "f1_micro": 0.9065040650406504,
+        "recall_micro": 0.8955823293172691,
+        "precision_micro": 0.9176954732510288,
+        "confusion_matrix": [
+            {
+                "class": "STACH",
+                "TN": 324,
+                "FP": 8,
+                "FN": 14,
+                "TP": 152
+            },
+            {
+                "class": "SR",
+                "TN": 321,
+                "FP": 11,
+                "FN": 16,
+                "TP": 150
+            },
+            {
+                "class": "AFIB",
+                "TN": 311,
+                "FP": 21,
+                "FN": 22,
+                "TP": 144
+            }
+        ]
+    }
+]
