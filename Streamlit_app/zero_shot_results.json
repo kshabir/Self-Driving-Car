@@ -1,0 +1,28 @@
+{
+    "f1_micro": 0.7885010266940452,
+    "recall_micro": 0.7710843373493976,
+    "precision_micro": 0.8067226890756303,
+    "confusion_matrix": [
+        {
+            "class": "STACH",
+            "TN": 274,
+            "FP": 58,
+            "FN": 29,
+            "TP": 137
+        },
+        {
+            "class": "SR",
+            "TN": 301,
+            "FP": 31,
+            "FN": 8,
+            "TP": 158
+        },
+        {
+            "class": "AFIB",
+            "TN": 329,
+            "FP": 3,
+            "FN": 77,
+            "TP": 89
+        }
+    ]
+}
